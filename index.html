@@ -1,65 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Kedven játékom</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kedven játékom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
+
 <body>
-    
+
     <div class="wrapper">
         <header>
-           <nav>
-              <div class="menu-icon">
-                 <i class="fa fa-bars fa-2x"></i>
-              </div>
-              <div class="logo">
-                <b>A KEDVENC JÁTÉKOM</b>
-              </div>
-              <div class="menu">
-                 <ul>
-                    <li><b> <a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Contact</a></b></li>
-                 </ul>
-              </div>
-           </nav>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    <b>A KEDVENC JÁTÉKOM</b>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><b> <a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Contact</a></b></li>
+                    </ul>
+                </div>
+            </nav>
+            <img src="images\\head name.png" alt="GTA SA name">
         </header>
+
+        <h1>A GTA: San Andreasról...</h1>
         <div class="content">
-           <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-           </p>
-           <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-           </p>
+            <p>
+                A <b>Grand Theft Auto: San Andreas</b> egy, a Rockstar North által fejlesztett videojáték, így tartalmaz
+                utalásokat a Grand Theft Auto III és a Grand Theft Auto: Vice City karaktereire és eseményeire. A
+                helyszín a valóságban nem létező San Andreas állam. Mint az eddigi legnagyobb és legösszetettebb
+                játéktér a sorozat történetében, San Andreas három teljesen valósághű, valós helyekről mintázott várost
+                tartalmaz: Los Santost (Los Angeles), San Fierrót (San Francisco) és Las Venturast (Las Vegas), ezek
+                mellett pedig hatalmas kiegészítő terület található, ami kisvárosokból, sivatagból, hegységekből,
+                erdőkből áll.
+            </p>
         </div>
-     </div>
+    </div>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Kedvenc<span> Játékom</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                ·
+                <a href="#">Blog</a>
+                ·
+                <a href="#">Pricing</a>
+                ·
+                <a href="#">About</a>
+                ·
+                <a href="#">Faq</a>
+                ·
+                <a href="#">Contact</a>
+            </p>
+
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p class="asd"><span>Debrecen </span> Hungary</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p class="asd">+36 20 9562230</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p class="asd"><a href="mailto:#">info.ora@gmail.com
+                    </a></p>
+            </div>
+            <p class="footer-company-name">Info óra &copy; 2021</p>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, numquam.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+        </div>
+    </footer>
+
 
 </body>
+
 </html>
 <script>
-     $(document).ready(function() {
-            $(".menu-icon").on("click", function() {
-                  $("nav ul").toggleClass("showing");
-            });
-      });
+    $(document).ready(function () {
+        $(".menu-icon").on("click", function () {
+            $("nav ul").toggleClass("showing");
+        });
+    });
 
-      // Scrolling Effect
+    // Scrolling Effect
 
-      $(window).on("scroll", function() {
-            if($(window).scrollTop()) {
-                  $('nav').addClass('black');
-            }
+    $(window).on("scroll", function () {
+        if ($(window).scrollTop()) {
+            $('nav').addClass('black');
+        }
 
-            else {
-                  $('nav').removeClass('black');
-            }
-      })
+        else {
+            $('nav').removeClass('black');
+        }
+    })
 </script>
