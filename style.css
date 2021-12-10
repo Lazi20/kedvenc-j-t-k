@@ -109,6 +109,28 @@ h1 {
     text-align: justify;
 }
 
+.table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table {
+    width: 80%;
+    font-size: 22px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, th {
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+td {
+    border:  1px solid black;
+    text-align: center;
+}
 
 /* footer */
 
